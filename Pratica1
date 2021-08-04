@@ -1,0 +1,23 @@
+//Carolina Morais Araujo 20.2.4188 turma:31
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+    float a, b, c, d;
+    printf("Digite os valores de a, b, c, d:\n");
+   
+    scanf("%f",&a);
+    scanf("%f",&b);
+    scanf("%f",&c);
+    scanf("%f",&d);
+    
+    printf("a = %.0f, b = %.0f, c = %.0f, d = %.0f:\n",a, b, c, d);
+   
+    float x = (pow(a, 3) * ((b + c) / d));
+
+    printf("%.0f",x);
+
+    return 0;
+}
